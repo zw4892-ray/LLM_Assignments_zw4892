@@ -1,0 +1,17 @@
+INPUT(s0)
+INPUT(d0)
+INPUT(d1)
+OUTPUT(y)
+
+n_not_s0 = NOT(s0)
+n_not_d0 = NOT(d0)
+n_not_d1 = NOT(d1)
+
+CONST0 = AND(s0, n_not_s0) 
+CONST1 = OR(s0, n_not_s0) 
+
+p_y_0 = AND(n_not_s0, d0, n_not_d1) 
+p_y_1 = AND(n_not_s0, d0, d1) 
+p_y_2 = AND(s0, n_not_d0, d1) 
+p_y_3 = AND(s0, d0, d1) 
+y = OR(p_y_0, p_y_1, p_y_2, p_y_3)
