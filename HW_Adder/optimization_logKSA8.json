@@ -1,0 +1,27 @@
+{
+    "A": [
+        {"iteration": 1, "area": 48.944, "levels": 9, "cells": 40, "status": "success"},
+        {"iteration": 2, "area": 48.944, "levels": 9, "cells": 40, "status": "success"},
+        {"iteration": 4, "area": 48.944, "levels": 9, "cells": 40, "status": "success"},
+        {"iteration": 5, "area": 48.944, "levels": 9, "cells": 40, "status": "success"},
+        {"iteration": 6, "area": 48.944, "levels": 9, "cells": 40, "status": "success"},
+        {"iteration": 7, "area": 48.944, "levels": 9, "cells": 40, "status": "success"},
+        {"iteration": 8, "area": 48.944, "levels": 9, "cells": 40, "status": "success"},
+        {"iteration": 9, "area": 48.944, "levels": 9, "cells": 40, "status": "success"},
+        {"iteration": 10, "area": 48.944, "levels": 9, "cells": 40, "status": "success"}
+    ],
+    "B": [
+        {"iteration": 1, "area": 51.072, "levels": 5, "cells": 44, "status": "success"},
+        {"iteration": 2, "area": 46.816, "levels": 6, "cells": 45, "status": "success"},
+        {"iteration": 3, "area": 55.594, "levels": 5, "cells": 51, "status": "success"},
+        {"iteration": 4, "area": 57.456, "levels": 6, "cells": 51, "status": "success"},
+        {"iteration": 6, "area": 57.456, "levels": 6, "cells": 51, "status": "success"},
+        {"iteration": 9, "area": 54.53, "levels": 6, "cells": 50, "status": "success"},
+        {"iteration": 10, "area": 55.594, "levels": 5, "cells": 50, "status": "success"}
+    ],
+    "C": [
+        {"iteration": 1, "area": 50.54, "levels": 9, "cells": 43, "status": "success"},
+        {"iteration": 2, "area": 50.54, "levels": 9, "cells": 43, "status": "success"},
+        {"iteration": 3, "area": 51.87, "levels": 9, "cells": 44, "status": "success"}
+    ]
+}

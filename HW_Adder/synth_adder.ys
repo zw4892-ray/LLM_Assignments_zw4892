@@ -1,0 +1,14 @@
+# synth_adder.ys  -- run with: yosys synth_adder.ys
+read_liberty -lib nangate45.lib
+read_verilog KSA8_LLM.v
+hierarchy -check -top KSA8
+proc; opt; fsm; opt; memory; opt 
+techmap; opt 
+dfflibmap -liberty nangate45.lib 
+abc -liberty nangate45.lib -constr constraints.sdc
+flatten
+read_liberty -lib nangate45.lib
+hierarchy -check -top KSA8
+ltp
+stat -liberty nangate45.lib 
+tee -o timing_report_KSA.txt ltp

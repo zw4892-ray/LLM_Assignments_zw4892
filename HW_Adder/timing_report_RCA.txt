@@ -1,0 +1,20 @@
+19. Executing LTP pass (find longest path).
+
+Longest topological path in RCA8 (length=16):
+    0: 1'0
+    1: $flatten\fa0.$abc$86$new_n8 (via $flatten\fa0.$abc$86$auto$blifparse.cc:397:parse_blif$89)
+    2: $flatten\fa0.$abc$86$cout (via $flatten\fa0.$abc$86$auto$blifparse.cc:397:parse_blif$90)
+    3: $flatten\fa[1].$abc$86$new_n8 (via $flatten\fa[1].$abc$86$auto$blifparse.cc:397:parse_blif$89)
+    4: $flatten\fa[1].$abc$86$cout (via $flatten\fa[1].$abc$86$auto$blifparse.cc:397:parse_blif$90)
+    5: $flatten\fa[2].$abc$86$new_n8 (via $flatten\fa[2].$abc$86$auto$blifparse.cc:397:parse_blif$89)
+    6: $flatten\fa[2].$abc$86$cout (via $flatten\fa[2].$abc$86$auto$blifparse.cc:397:parse_blif$90)
+    7: $flatten\fa[3].$abc$86$new_n8 (via $flatten\fa[3].$abc$86$auto$blifparse.cc:397:parse_blif$89)
+    8: $flatten\fa[3].$abc$86$cout (via $flatten\fa[3].$abc$86$auto$blifparse.cc:397:parse_blif$90)
+    9: $flatten\fa[4].$abc$86$new_n8 (via $flatten\fa[4].$abc$86$auto$blifparse.cc:397:parse_blif$89)
+   10: $flatten\fa[4].$abc$86$cout (via $flatten\fa[4].$abc$86$auto$blifparse.cc:397:parse_blif$90)
+   11: $flatten\fa[5].$abc$86$new_n8 (via $flatten\fa[5].$abc$86$auto$blifparse.cc:397:parse_blif$89)
+   12: $flatten\fa[5].$abc$86$cout (via $flatten\fa[5].$abc$86$auto$blifparse.cc:397:parse_blif$90)
+   13: $flatten\fa[6].$abc$86$new_n8 (via $flatten\fa[6].$abc$86$auto$blifparse.cc:397:parse_blif$89)
+   14: $flatten\fa[6].$abc$86$cout (via $flatten\fa[6].$abc$86$auto$blifparse.cc:397:parse_blif$90)
+   15: $flatten\fa7.$abc$86$new_n8 (via $flatten\fa7.$abc$86$auto$blifparse.cc:397:parse_blif$89)
+   16: $flatten\fa7.$abc$86$sum (via $flatten\fa7.$abc$86$auto$blifparse.cc:397:parse_blif$92)

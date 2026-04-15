@@ -1,0 +1,12 @@
+19. Executing LTP pass (find longest path).
+
+Longest topological path in KSA8 (length=8):
+    0: \b [1]
+    1: $flatten\sq1.$abc$96$G (via $flatten\sq1.$abc$96$auto$blifparse.cc:397:parse_blif$98)
+    2: $flatten\bc1_2.$abc$92$new_n8 (via $flatten\bc1_2.$abc$92$auto$blifparse.cc:397:parse_blif$94)
+    3: $flatten\bc1_2.$abc$92$G (via $flatten\bc1_2.$abc$92$auto$blifparse.cc:397:parse_blif$95)
+    4: $flatten\bc2_2.$abc$92$new_n8 (via $flatten\bc2_2.$abc$92$auto$blifparse.cc:397:parse_blif$94)
+    5: $flatten\bc2_2.$abc$92$G (via $flatten\bc2_2.$abc$92$auto$blifparse.cc:397:parse_blif$95)
+    6: $flatten\bc3_6.$abc$92$new_n8 (via $flatten\bc3_6.$abc$92$auto$blifparse.cc:397:parse_blif$94)
+    7: $flatten\bc3_6.$abc$92$G (via $flatten\bc3_6.$abc$92$auto$blifparse.cc:397:parse_blif$95)
+    8: $flatten\tr7.$abc$89$Si (via $flatten\tr7.$abc$89$auto$blifparse.cc:397:parse_blif$90)
